@@ -1,0 +1,18 @@
+library(MASS)
+attach(Boston)
+?Boston
+head(Boston)
+dim(Boston)
+names(Boston)
+str(Boston)
+nrow(Boston)
+ncol(Boston)
+summary(Boston)
+summary(Boston$crim)
+epi <- read.csv(file.choose())
+?epi
+head(epi)
+summary(epi$EPI)
+boxplot(epi$EPI)
+fivnum(epi$EPI)
+fivenum(epi$EPI)
